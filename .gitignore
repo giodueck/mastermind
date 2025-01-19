@@ -1,0 +1,7 @@
+# Zig build files
+.zig-cache/
+*.o
+
+# Zig output files
+zig-out/
+mastermind
