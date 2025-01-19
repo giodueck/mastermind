@@ -15,3 +15,10 @@ To build an executable:
 zig build-exe main.zig --name mastermind
 ./mastermind
 ```
+
+# How to play
+Select a combination to guess by typing a sequence of digits (0-7) separated by spaces to select 4 colors.
+After entering a guess, the number of correct colors guessed is reflected in white beads and the number of
+correct colors in the correct positions is reflected in red beads, both right below the colors of the guess.
+
+Guess the right combination of 4 distinct colors in 9 turns or less to win.
